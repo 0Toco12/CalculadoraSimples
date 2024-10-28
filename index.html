@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <div class="conteiner">
+        <h1>Calculadora - simples</h1>
+        <input type="number" id="num1" placeholder="Digite o número 1">
+        <input type="number" id="num2" placeholder="Digite o número 2">
+        <button onclick="calcularSoma()">SOMAR</button>
+        <button onclick="calcularMultiplica()">MULTIPLICAR</button>
+        <button onclick="calcularSubtracao()">SUBTRAIR</button>
+        <button onclick="calcularDividi()">DIVIDIR</button>
+        <p id="resultado">....</p>
+        <h2>Exemplo da Função sem Parâmetros</h2>
+        <button onclick="exibirMensagem()">Exibir mensagem</button>
+        <button onclick="apagarMensagem()">Apagar mensagem</button>
+        <p id="mensagem">....</p>
+        <h2>Digite sua mensagem</h2>
+        <textarea id="texto"></textarea>
+        <button onclick="enviarMensagem()">Enviar Mensagem</button>
+        <div class="divTexto">
+            <p id="pTexto"></p>
+        </div>
+        <button onclick="mudarFundo()">Mudar cor de fundo</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
